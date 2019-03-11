@@ -2,8 +2,8 @@ package edu.upc.swarch.cats;
 
 public class CatFactsMain {
     public static void main(String[] args) throws Exception {
-        CatFacts facts = new CatFacts();
-
+        CatFactsWebClient dataSource = new CatFactsWebClient();
+        CatFacts facts = new CatFacts(dataSource);
         System.out.println(facts.randomFact());
     }
 }

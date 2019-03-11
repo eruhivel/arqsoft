@@ -2,3 +2,4 @@
 **/.gradle
 **/.DS_Store
 
+/lesson03_databases/part01_raw_sql/.nb-gradle/

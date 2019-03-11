@@ -26,6 +26,8 @@ dependencies {
     compile 'com.fasterxml.jackson.core:jackson-databind:2.6.3'
     // Use JUnit test framework
     testCompile 'junit:junit:4.12'
+    // Mockito
+    testCompile group: 'org.mockito', name: 'mockito-core', version: '2.24.5'
 }
 
 // Configuration of the Code Coverage plugin
